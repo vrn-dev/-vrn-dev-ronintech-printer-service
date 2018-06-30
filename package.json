@@ -1,12 +1,9 @@
 {
-  "name": "@vrn-dev/ronintech-printer-service",
-  "version": "1.0.0",
+  "name": "ronintech-printer-service",
+  "version": "1.0.1",
   "description": "Ronintech Printer Service",
   "main": "src/index.js",
   "typings": "src/",
-  "files": [
-    "src/"
-  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/vrn-dev/-vrn-dev-ronintech-printer-service.git"
