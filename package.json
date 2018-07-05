@@ -1,6 +1,6 @@
 {
   "name": "ronintech-printer-service",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Ronintech Printer Service",
   "main": "./dist/index.js",
   "types": "./ronintech-printer-service.d.ts",
