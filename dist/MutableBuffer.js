@@ -9,7 +9,6 @@ var MutableBuffer = /** @class */ (function () {
         this.buffer = new Uint8Array(size);
         this.clear();
     }
-
     MutableBuffer.prototype.clear = function () {
         this.size = 0;
     };

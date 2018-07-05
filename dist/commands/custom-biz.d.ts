@@ -3,44 +3,36 @@ export declare enum Basic {
   FEED = 10,
   DATA_END = 0,
 }
-
 export declare enum Cut {
   FULL = '\u001Bi',
   PARTIAL = '\u001Bm',
 }
-
 export declare enum Size {
   Normal = '\u001D!\0\u001D!\0',
   Double = '\u001D!\u0001\u001D!\u0010',
 }
-
 export declare enum Underline {
   None = 0,
   On = 1,
   Double = 2,
 }
-
 export declare enum Bold {
   Off = 0,
   On = 1,
 }
-
 export declare enum Italic {
   Off = 0,
   On = 1,
 }
-
 export declare enum Font {
   A = 0,
   B = 1,
 }
-
 export declare enum Align {
   Left = 0,
   Center = 1,
   Right = 2,
 }
-
 export declare enum Barcode {
   UPC_A = 0,
   UPC_E = 1,
@@ -53,14 +45,12 @@ export declare enum Barcode {
   CODE93 = 8,
   CODE128 = 20,
 }
-
 export declare enum Position {
   Off = 0,
   Above = 1,
   Below = 2,
   Both = 3,
 }
-
 /**
  * Barcode Dimensions
  * Height Default : 162. 1 <= n <= 255
@@ -79,7 +69,6 @@ export declare enum BarcodeDims {
   Default_w = 3,
   DEFAULT = '\u001Dh\u00A2\u001Dw\u0003',
 }
-
 export declare enum QRErrorCorrectionLevel {
   AUTO = 0,
   _20 = 1,
@@ -87,7 +76,6 @@ export declare enum QRErrorCorrectionLevel {
   _50 = 3,
   _65 = 4,
 }
-
 export declare enum QRSize {
   AUTO = 0,
   V1 = 1,
@@ -98,7 +86,6 @@ export declare enum QRSize {
   V7 = 7,
   V8 = 8,
 }
-
 export declare enum RasterMode {
   Normal = 0,
   DoubleWidth = 1,

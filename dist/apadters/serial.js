@@ -13,7 +13,6 @@ var __extends = (this && this.__extends) || (function () {
         function __() {
             this.constructor = d;
         }
-
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
@@ -40,7 +39,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                 resolve(result.value);
             }).then(fulfilled, rejected);
         }
-
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
@@ -64,7 +62,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
             return step([n, v]);
         };
     }
-
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
         while (_) try {
@@ -129,14 +126,12 @@ var adapter_1 = __importDefault(require("./adapter"));
 var serialport_1 = __importDefault(require("serialport"));
 var Serial = /** @class */ (function (_super) {
     __extends(Serial, _super);
-
     function Serial(path, options) {
         var _this = _super.call(this) || this;
         options.autoOpen = false;
         _this.device = new serialport_1.default(path, options);
         return _this;
     }
-
     Serial.prototype.open = function () {
         return __awaiter(this, void 0, void 0, function () {
             var _this = this;

@@ -13,7 +13,6 @@ var __extends = (this && this.__extends) || (function () {
         function __() {
             this.constructor = d;
         }
-
         d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
     };
 })();
@@ -40,7 +39,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                 resolve(result.value);
             }).then(fulfilled, rejected);
         }
-
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
@@ -64,7 +62,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
             return step([n, v]);
         };
     }
-
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
         while (_) try {
@@ -130,7 +127,6 @@ var usb_1 = require("usb");
 var PRINTER_CLASS = 0x07;
 var Usb = /** @class */ (function (_super) {
     __extends(Usb, _super);
-
     function Usb(vid, pid) {
         var _this = _super.call(this) || this;
         _this.vid = vid;
@@ -141,7 +137,6 @@ var Usb = /** @class */ (function (_super) {
         });
         return _this;
     }
-
     Usb.findDeviceOrThrow = function (vid, pid) {
         if (vid && pid)
             return usb_1.findByIds(vid, pid);

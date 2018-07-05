@@ -22,7 +22,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                 resolve(result.value);
             }).then(fulfilled, rejected);
         }
-
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
@@ -46,7 +45,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
             return step([n, v]);
         };
     }
-
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
         while (_) try {
@@ -126,7 +124,6 @@ var Printer = /** @class */ (function () {
         this.encoding = encoding;
         this.buffer = new MutableBuffer_1.default();
     }
-
     Printer.prototype.setEncoding = function (encoding) {
         this.encoding = encoding;
         return this;

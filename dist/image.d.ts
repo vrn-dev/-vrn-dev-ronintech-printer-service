@@ -3,7 +3,6 @@ export interface IRaster {
   height: number;
   width: number;
 }
-
 export default class Image {
   width: number;
   height: number;

@@ -4,7 +4,6 @@ export interface IEndpoint {
   address: string;
   port: number;
 }
-
 export default class Network extends Adapter {
   private retries;
   private retrying;

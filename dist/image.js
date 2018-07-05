@@ -22,7 +22,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                 resolve(result.value);
             }).then(fulfilled, rejected);
         }
-
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
@@ -46,7 +45,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
             return step([n, v]);
         };
     }
-
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
         while (_) try {
@@ -112,7 +110,6 @@ var Image = /** @class */ (function () {
         this.height = height;
         this.data = pixels;
     }
-
     Image.load = function (path) {
         return __awaiter(this, void 0, void 0, function () {
             var stream;

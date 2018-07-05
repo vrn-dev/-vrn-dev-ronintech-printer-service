@@ -22,7 +22,6 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
                 resolve(result.value);
             }).then(fulfilled, rejected);
         }
-
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
@@ -46,7 +45,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
             return step([n, v]);
         };
     }
-
     function step(op) {
         if (f) throw new TypeError("Generator is already executing.");
         while (_) try {
@@ -105,7 +103,6 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 Object.defineProperty(exports, "__esModule", {value: true});
 var fs_1 = require("fs");
-
 function createStreamFromPath(path) {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
@@ -121,12 +118,9 @@ function createStreamFromPath(path) {
         });
     });
 }
-
 exports.createStreamFromPath = createStreamFromPath;
-
 function getRequestStream(address) {
     return new Error('NOT IMPLEMTNTED');
 }
-
 exports.getRequestStream = getRequestStream;
 //# sourceMappingURL=utils.js.map
