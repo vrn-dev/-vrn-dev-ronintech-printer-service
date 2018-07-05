@@ -2,8 +2,8 @@
   "name": "ronintech-printer-service",
   "version": "1.0.2",
   "description": "Ronintech Printer Service",
-  "main": "dist/index.js",
-  "typings": "./ronintech-printer-service.d.ts",
+  "main": "./dist/index.js",
+  "types": "./ronintech-printer-service.d.ts",
   "homepage": "https://github.com/vrn-dev/-vrn-dev-ronintech-printer-service.git",
   "repository": {
     "type": "git",
