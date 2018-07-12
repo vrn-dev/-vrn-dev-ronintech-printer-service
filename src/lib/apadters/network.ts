@@ -6,7 +6,7 @@ export interface IEndpoint {
   port: number;
 }
 
-export default class Network extends Adapter {
+export class Network extends Adapter {
   private retrying: boolean;
   private options: IEndpoint;
   private device: Socket;

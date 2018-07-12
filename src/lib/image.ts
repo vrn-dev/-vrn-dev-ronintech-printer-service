@@ -7,7 +7,7 @@ export interface IRaster {
   width: number;
 }
 
-export default class Image {
+export class Image {
   private data: boolean[];
 
   constructor(pixels: boolean[],

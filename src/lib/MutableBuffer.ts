@@ -1,4 +1,4 @@
-export default class MutableBuffer {
+export class MutableBuffer {
   private buffer: Uint8Array;
 
   constructor(private size: number = 1024) {

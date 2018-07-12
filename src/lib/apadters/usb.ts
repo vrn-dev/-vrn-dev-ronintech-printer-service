@@ -3,7 +3,7 @@ import { Device, findByIds, getDeviceList, Interface, on as addEventListener, Ou
 
 const PRINTER_CLASS = 0x07;
 
-export default class Usb extends Adapter {
+export class Usb extends Adapter {
   private device!: Device | null;
   private endpoint!: OutEndpoint | null;
 

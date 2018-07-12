@@ -1,16 +1,11 @@
 {
   "name": "ronintech-printer-service",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Ronintech Printer Service",
-  "main": "./dist/index.js",
-  "types": "./ronintech-printer-service.d.ts",
   "homepage": "https://github.com/vrn-dev/-vrn-dev-ronintech-printer-service.git",
   "repository": {
     "type": "git",
     "url": "https://github.com/vrn-dev/-vrn-dev-ronintech-printer-service.git"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "ronintech"
@@ -20,6 +15,13 @@
     "email": "vaisakh@ronintech.me"
   },
   "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "jsnext:main": "dist/index.js",
   "devDependencies": {
     "@types/iconv-lite": "0.0.1",
     "@types/node": "^10.5.1",

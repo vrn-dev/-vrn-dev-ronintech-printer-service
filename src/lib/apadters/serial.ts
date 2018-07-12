@@ -1,7 +1,7 @@
 import Adapter from './adapter';
 import SerialPort from 'serialport';
 
-export default class Serial extends Adapter {
+export class Serial extends Adapter {
   private device: SerialPort;
 
   constructor(path: string, options: SerialPort.OpenOptions) {

@@ -1,6 +1,6 @@
 import * as iconv from 'iconv-lite';
 
-import MutableBuffer from './MutableBuffer';
+import { MutableBuffer } from './MutableBuffer';
 import Adapter from './apadters/adapter';
 import {
   Align,
@@ -17,10 +17,10 @@ import {
   RasterMode,
   Size,
   Underline
-} from './commands/custom-biz';
-import Image from './image';
+} from './commands';
+import { Image } from './image';
 
-export default class Printer {
+export class Printer {
   private buffer: MutableBuffer;
 
   constructor(private adapter: Adapter,
